@@ -1731,7 +1731,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #08087f;
+  background: #9f4b2d;
 }
 .feed-link,
 .chat {
@@ -2802,4 +2802,24 @@ ul.breadcrumb li+li:last-child {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+body {
+  background-image: url("../images/background.jpg");
+  height: 100%;
+  width: 100%;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.content-wrap {
+  opacity: 0.85;
+}
+.sidebar {
+  opacity: 0.85;
+}
+.header-inner {
+  background: rgba(255,255,255,0.85);
+}
+.popup {
+  opacity: 0.9;
 }
