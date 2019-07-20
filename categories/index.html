@@ -78,8 +78,8 @@
     scheme: 'Pisces',
     version: '7.2.0',
     sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
-    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
-    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":true},
+    copycode: {"enable":true,"show_result":true,"style":null},
     fancybox: false,
     fastclick: false,
     lazyload: false,
@@ -589,6 +589,8 @@
       <div class="back-to-top">
         <i class="fa fa-arrow-up"></i>
         
+          <span id="scrollpercent"><span>0</span>%</span>
+        
       </div>
     
 
@@ -672,6 +674,9 @@
   <script src="/js/next-boot.js?v=7.2.0"></script>
 
   
+  <script src="/js/js.cookie.js?v=7.2.0"></script>
+  <script src="/js/scroll-cookie.js?v=7.2.0"></script>
+
 
   
 
