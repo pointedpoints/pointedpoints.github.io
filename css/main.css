@@ -1698,6 +1698,12 @@ pre .javascript .function {
   border: 1px solid #eee;
   opacity: 1;
 }
+.site-author-image {
+  transition: transform 1s ease-out;
+}
+.site-author-image:hover {
+  transform: rotateZ(360deg);
+}
 .site-author-name {
   margin: 0;
   text-align: center;
@@ -1731,7 +1737,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9f4b2d;
+  background: #9f39ff;
 }
 .feed-link,
 .chat {
@@ -2807,9 +2813,9 @@ body {
   background-image: url("../images/background.jpg");
   height: 100%;
   width: 100%;
-  background-repeat: repeat-x;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 .content-wrap {
   opacity: 0.85;
