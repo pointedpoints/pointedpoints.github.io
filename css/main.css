@@ -1699,10 +1699,7 @@ pre .javascript .function {
   opacity: 1;
 }
 .site-author-image {
-  transition: transform 1s ease-out;
-}
-.site-author-image:hover {
-  transform: rotateZ(360deg);
+  border-radius: 100%;
 }
 .site-author-name {
   margin: 0;
@@ -1737,7 +1734,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9f39ff;
+  background: #1bc7fb;
 }
 .feed-link,
 .chat {
