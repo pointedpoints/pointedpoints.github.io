@@ -24,13 +24,6 @@
 
 
 
-  
-  
-    
-    
-  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
-  <link rel="stylesheet" href="/lib/pace/pace-theme-bounce.min.css?v=1.0.2">
-
 
 
 
@@ -77,9 +70,9 @@
     root: '/',
     scheme: 'Pisces',
     version: '7.2.0',
-    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
-    back2top: {"enable":true,"sidebar":false,"scrollpercent":true},
-    copycode: {"enable":true,"show_result":true,"style":null},
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
     fancybox: false,
     fastclick: false,
     lazyload: false,
@@ -91,14 +84,13 @@
       indexName: '',
       hits: {"per_page":10},
       labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
-    },
-    translation: {
-      copy_button: '复制',
-      copy_success: '复制成功',
-      copy_failure: '复制失败'
     }
   };
 </script>
+
+
+  
+
 
 
 
@@ -109,7 +101,7 @@
 <meta property="og:site_name" content="pointedpoints&#39; blog">
 <meta property="og:description" content="菜鸡，失忆刀客塔，鹿乃粉，狒狒14红玉海豆芽（手残）THU能源与电气类，九字班不会写代码 联系方式： QQ：2041950483 e-mail：pointedpoints@gmail.com 虽然一般不用email 友链请在置顶帖留言">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-07-23T14:07:27.761Z">
+<meta property="og:updated_time" content="2019-07-23T14:47:14.982Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="关于我">
 <meta name="twitter:description" content="菜鸡，失忆刀客塔，鹿乃粉，狒狒14红玉海豆芽（手残）THU能源与电气类，九字班不会写代码 联系方式： QQ：2041950483 e-mail：pointedpoints@gmail.com 虽然一般不用email 友链请在置顶帖留言">
@@ -334,6 +326,10 @@
 
 
 
+  
+
+
+
 </div>
     </header>
 
@@ -424,14 +420,6 @@
 
           </div>
           
-
-  
-    <div class="comments" id="gitalk-container">
-    </div>
-
-  
-
-
 
         </div>
         
@@ -526,6 +514,10 @@
           
 
           
+            
+          
+          
+
         </div>
       </div>
 
@@ -535,7 +527,7 @@
 
     </div>
   </aside>
-  <div id="sidebar-dimmer"></div>
+  
 
 
         
@@ -594,6 +586,8 @@
     
 
     
+
+    
   </div>
 
   
@@ -613,9 +607,6 @@
 
 
 
-  
-  
-
 
 
 
@@ -625,6 +616,10 @@
     
   
   <script color="9,233,246" opacity="0.5" zindex="-1" count="99" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+
+
+
+
 
 
 
@@ -644,6 +639,7 @@
   <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
 
 
+  
 
 
   <script src="/js/utils.js?v=7.2.0"></script>
@@ -668,7 +664,11 @@
 
 
 
+  
+
+
   <script src="/js/next-boot.js?v=7.2.0"></script>
+
 
   
   <script src="/js/js.cookie.js?v=7.2.0"></script>
@@ -681,39 +681,6 @@
 
   
 
-  
-
-
-  
-    
-
-<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-
-
-
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
-
-
-
-<script src="//cdn.jsdelivr.net/npm/js-md5@0.7.3/src/md5.min.js"></script>
-
-<script>
-  var gitalk = new Gitalk({
-    clientID: '12d497d24e8bddd359ab',
-    clientSecret: '9849ddc4a0648a12cac4d4c809225880f6d3f115',
-    repo: 'Comments_gitalk',
-    owner: 'pointedpoints',
-    admin: ['pointedpoints'],
-    id: md5(location.pathname),
-    
-      language: window.navigator.language || window.navigator.userLanguage,
-    
-    distractionFreeMode: 'true'
-  });
-  gitalk.render('gitalk-container');
-</script>
-
-  
 
 
   
@@ -1052,46 +1019,6 @@
   
 
   
-    
-      <script type="text/x-mathjax-config">
-  
-
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
-      processEscapes: true,
-      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-    },
-    TeX: {
-      
-      equationNumbers: {
-        autoNumber: 'AMS'
-      }
-    }
-  });
-  MathJax.Hub.Register.StartupHook('TeX Jax Ready', function() {
-    MathJax.InputJax.TeX.prefilterHooks.Add(function(data) {
-      if (data.display) {
-        var next = data.script.nextSibling;
-        while (next && next.nodeName.toLowerCase() === '#text') { next = next.nextSibling }
-        if (next && next.nodeName.toLowerCase() === 'br') { next.parentNode.removeChild(next) }
-      }
-    });
-  });
-</script>
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for (i = 0; i < all.length; i += 1) {
-      document.getElementById(all[i].inputID + '-Frame').parentNode.className += ' has-jax';
-    }
-  });
-</script>
-<script src="//cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
-    
-  
 
 
   
@@ -1113,7 +1040,6 @@
   
 
   
-
 
   
 
