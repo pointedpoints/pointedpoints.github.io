@@ -91,19 +91,33 @@
 
   
 
+ <!-- jquery -->
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+ <!-- live2d -->
+
+<div class="waifu">
+    <div class="waifu-tips"></div>
+    <canvas id="live2d" width="240" height="210" class="live2d"></canvas>
+</div>
+<script async src="/lib/poster-girl/waifu-tips.js"></script>
+<script src="/lib/poster-girl/live2d.js"></script>
+<script type="text/javascript">
+    loadlive2d("live2d", "/live2d/assets/Unitychan.model.json");
+</script>
 
 
-
-  <meta name="description" content="搭建中（咕咕咕）">
+  <meta name="description" content="咕咕咕">
 <meta property="og:type" content="website">
 <meta property="og:title" content="pointedpoints&#39; blog">
 <meta property="og:url" content="http://pointedpoints.github.io/index.html">
 <meta property="og:site_name" content="pointedpoints&#39; blog">
-<meta property="og:description" content="搭建中（咕咕咕）">
+<meta property="og:description" content="咕咕咕">
 <meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="pointedpoints&#39; blog">
-<meta name="twitter:description" content="搭建中（咕咕咕）">
+<meta name="twitter:description" content="咕咕咕">
 
 
 
@@ -362,11 +376,11 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://pointedpoints.github.io/2019/07/20/关于该博客及博主/">
+    <link itemprop="mainEntityOfPage" href="http://pointedpoints.github.io/关于该博客及博主/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="pointedpoints">
-      <meta itemprop="description" content="搭建中（咕咕咕）">
+      <meta itemprop="description" content="咕咕咕">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
@@ -382,7 +396,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2019/07/20/关于该博客及博主/" class="post-title-link" itemprop="url">关于该博客及博主</a>
+                <a href="/关于该博客及博主/" class="post-title-link" itemprop="url">关于该博客及博主</a>
               
             
           </h1>
@@ -469,7 +483,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/2019/07/20/关于该博客及博主/#more" rel="contents">
+              <a class="btn" href="/关于该博客及博主/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -529,11 +543,11 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://pointedpoints.github.io/2019/07/17/“Bill-Yang骚话集”/">
+    <link itemprop="mainEntityOfPage" href="http://pointedpoints.github.io/“Bill-Yang骚话集”/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="pointedpoints">
-      <meta itemprop="description" content="搭建中（咕咕咕）">
+      <meta itemprop="description" content="咕咕咕">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
@@ -549,7 +563,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2019/07/17/“Bill-Yang骚话集”/" class="post-title-link" itemprop="url">“Bill_Yang骚话集”</a>
+                <a href="/“Bill-Yang骚话集”/" class="post-title-link" itemprop="url">“Bill_Yang骚话集”</a>
               
             
           </h1>
@@ -632,7 +646,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/2019/07/17/“Bill-Yang骚话集”/#more" rel="contents">
+              <a class="btn" href="/“Bill-Yang骚话集”/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -692,11 +706,11 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://pointedpoints.github.io/2019/07/13/Test/">
+    <link itemprop="mainEntityOfPage" href="http://pointedpoints.github.io/Test/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="pointedpoints">
-      <meta itemprop="description" content="搭建中（咕咕咕）">
+      <meta itemprop="description" content="咕咕咕">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
@@ -712,7 +726,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2019/07/13/Test/" class="post-title-link" itemprop="url">测试</a>
+                <a href="/Test/" class="post-title-link" itemprop="url">测试</a>
               
             
           </h1>
@@ -799,7 +813,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/2019/07/13/Test/#more" rel="contents">
+              <a class="btn" href="/Test/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -878,7 +892,7 @@
               <img class="site-author-image" itemprop="image" src="/images/avatar.gif" alt="pointedpoints">
             
               <p class="site-author-name" itemprop="name">pointedpoints</p>
-              <div class="site-description motion-element" itemprop="description">搭建中（咕咕咕）</div>
+              <div class="site-description motion-element" itemprop="description">咕咕咕</div>
           </div>
 
           
@@ -1500,6 +1514,11 @@
    <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;"></canvas> 
    <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
    <script type="text/javascript" src="/js/src/fireworks.js"></script>
+
+
+<!--崩溃欺骗-->
+<script type="text/javascript" src="/js/src/crash.js"></script>
+
 
 </body>
 </html>

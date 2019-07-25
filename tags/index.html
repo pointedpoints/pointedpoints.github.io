@@ -91,20 +91,34 @@
 
   
 
+ <!-- jquery -->
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+ <!-- live2d -->
+
+<div class="waifu">
+    <div class="waifu-tips"></div>
+    <canvas id="live2d" width="240" height="210" class="live2d"></canvas>
+</div>
+<script async src="/lib/poster-girl/waifu-tips.js"></script>
+<script src="/lib/poster-girl/live2d.js"></script>
+<script type="text/javascript">
+    loadlive2d("live2d", "/live2d/assets/Unitychan.model.json");
+</script>
 
 
-
-  <meta name="description" content="搭建中（咕咕咕）">
+  <meta name="description" content="咕咕咕">
 <meta property="og:type" content="website">
 <meta property="og:title" content="标签">
 <meta property="og:url" content="http://pointedpoints.github.io/tags/index.html">
 <meta property="og:site_name" content="pointedpoints&#39; blog">
-<meta property="og:description" content="搭建中（咕咕咕）">
+<meta property="og:description" content="咕咕咕">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:updated_time" content="2019-07-23T15:20:53.879Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="标签">
-<meta name="twitter:description" content="搭建中（咕咕咕）">
+<meta name="twitter:description" content="咕咕咕">
 
 
 
@@ -460,7 +474,7 @@
               <img class="site-author-image" itemprop="image" src="/images/avatar.gif" alt="pointedpoints">
             
               <p class="site-author-name" itemprop="name">pointedpoints</p>
-              <div class="site-description motion-element" itemprop="description">搭建中（咕咕咕）</div>
+              <div class="site-description motion-element" itemprop="description">咕咕咕</div>
           </div>
 
           
@@ -1078,6 +1092,11 @@
    <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;"></canvas> 
    <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
    <script type="text/javascript" src="/js/src/fireworks.js"></script>
+
+
+<!--崩溃欺骗-->
+<script type="text/javascript" src="/js/src/crash.js"></script>
+
 
 </body>
 </html>

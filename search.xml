@@ -5,8 +5,8 @@
     
     <entry>
       <title>关于该博客及博主</title>
-      <link href="/2019/07/20/%E5%85%B3%E4%BA%8E%E8%AF%A5%E5%8D%9A%E5%AE%A2%E5%8F%8A%E5%8D%9A%E4%B8%BB/"/>
-      <url>/2019/07/20/%E5%85%B3%E4%BA%8E%E8%AF%A5%E5%8D%9A%E5%AE%A2%E5%8F%8A%E5%8D%9A%E4%B8%BB/</url>
+      <link href="/%E5%85%B3%E4%BA%8E%E8%AF%A5%E5%8D%9A%E5%AE%A2%E5%8F%8A%E5%8D%9A%E4%B8%BB/"/>
+      <url>/%E5%85%B3%E4%BA%8E%E8%AF%A5%E5%8D%9A%E5%AE%A2%E5%8F%8A%E5%8D%9A%E4%B8%BB/</url>
       
         <content type="html"><![CDATA[<p>以前信竞时就建过这样一个博客，后来退役就没打理过了，现在重新建起来。</p><a id="more"></a><h1 id="关于博主"><a href="#关于博主" class="headerlink" title="关于博主"></a>关于博主</h1><p>侧栏有介绍，请移步</p><h1 id="关于头像与背景"><a href="#关于头像与背景" class="headerlink" title="关于头像与背景"></a>关于头像与背景</h1><p>头像与背景均来自pixiv</p><p>头像是明日方舟的白面鸮（<del>抽不出来真是抱歉了呢</del>）, pid为75793654,画师有很多有趣的动图作品，UID: 16274829</p><p>背景是鹿乃，再找一遍时翻了好久……，pid为61785600，uid为9927548</p><p>如果图片侵犯了您的权益，请留言告知，我会尽快撤下。</p><h1 id="友链"><a href="#友链" class="headerlink" title="友链"></a>友链</h1><p>如果不嫌弃这个辣鸡，请在下面评论区留言（名称+网址）</p><p>会不定期（<del>看心情</del>)查看，如果链接失效会撤下，可以重新申请</p>]]></content>
       
@@ -18,8 +18,8 @@
     
     <entry>
       <title>“Bill_Yang骚话集”</title>
-      <link href="/2019/07/17/%E2%80%9CBill-Yang%E9%AA%9A%E8%AF%9D%E9%9B%86%E2%80%9D/"/>
-      <url>/2019/07/17/%E2%80%9CBill-Yang%E9%AA%9A%E8%AF%9D%E9%9B%86%E2%80%9D/</url>
+      <link href="/%E2%80%9CBill-Yang%E9%AA%9A%E8%AF%9D%E9%9B%86%E2%80%9D/"/>
+      <url>/%E2%80%9CBill-Yang%E9%AA%9A%E8%AF%9D%E9%9B%86%E2%80%9D/</url>
       
         <content type="html"><![CDATA[<p>应某小姐姐要求，我们把那个Bill挂起来</p><a id="more"></a><p><img src="/images/%E9%AA%9A%E8%AF%9D%E9%9B%86/001.png" alt="小姐姐的要求"></p><p>事件起因：</p><p>Achen：怎么没有Bill_Yang语录啊？</p><p><img src="/images/%E9%AA%9A%E8%AF%9D%E9%9B%86/002.png" alt="嚣张Bill_Yang"></p><p>经调查，Bill_Yang早就有所预谋</p><p><img src="/images/%E9%AA%9A%E8%AF%9D%E9%9B%86/003.png" alt="Bill_Yang的阴谋"></p>]]></content>
       
@@ -37,8 +37,8 @@
     
     <entry>
       <title>测试</title>
-      <link href="/2019/07/13/Test/"/>
-      <url>/2019/07/13/Test/</url>
+      <link href="/Test/"/>
+      <url>/Test/</url>
       
         <content type="html"><![CDATA[<h1 id="如题"><a href="#如题" class="headerlink" title="如题"></a>如题</h1><details>    <summary>这是个测试</summary>    <p>test1</p>    <p>test2</p></details><a id="more"></a><h2 id="公式"><a href="#公式" class="headerlink" title="公式"></a>公式</h2><p>建设中，顺便测试一下公式<br>$$<br>\Gamma \left ( x \right )= \int_{0}^{+\infty }t^{x-1}e^{-t}dt\left ( x&gt; 0 \right )<br>$$<br><del>公式真难写</del></p><h2 id="To-Do-List"><a href="#To-Do-List" class="headerlink" title="To-Do List"></a>To-Do List</h2><ul><li><input disabled type="checkbox"> 吃饭</li><li><input disabled type="checkbox"> 睡觉</li><li><input disabled type="checkbox"> 失忆</li><li><input checked disabled type="checkbox"> 打明日方舟</li><li><input checked disabled type="checkbox"> 玩麻辣土豆</li><li><input disabled type="checkbox"> 去一趟沙之家</li></ul><h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="built_in">cout</span>&lt;&lt;<span class="string">"fxxk the whole universe"</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       
