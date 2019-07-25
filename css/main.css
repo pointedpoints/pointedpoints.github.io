@@ -1791,7 +1791,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff98d0;
+  background: #c61cff;
 }
 .feed-link,
 .chat {
@@ -2836,8 +2836,6 @@ body {
   opacity: 0.9;
 }
 .waifu {
-  width: 150px;
-  height: 150px;
   position: fixed;
   bottom: 0;
   right: 0;
