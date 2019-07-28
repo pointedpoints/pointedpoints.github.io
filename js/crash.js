@@ -9,7 +9,7 @@
      }
      else {
          $('[rel="icon"]').attr('href', "/favicon.ico");
-         document.title =  'rua!rua!!rua!!!'+ OriginTitle;
+         document.title =  'rua!rua!!rua!!!';
          titleTime = setTimeout(function () {
              document.title = OriginTitle;
          }, 2000);
