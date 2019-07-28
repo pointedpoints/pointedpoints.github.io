@@ -4,7 +4,7 @@
  document.addEventListener('visibilitychange', function () {
      if (document.hidden) {
          $('[rel="icon"]').attr('href', "/img/TEP.ico");
-         document.title = 'Free Pron Videos & Sex Movies|Prono,XXX,Pron Tube|PornHub';
+         document.title = 'Free Porn Videos & Sex Movies|Porno,XXX,Porn Tube|PornHub';
          clearTimeout(titleTime);
      }
      else {
