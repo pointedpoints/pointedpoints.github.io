@@ -117,7 +117,7 @@
 <meta property="og:description" content="正在学习中">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://pointedpoints.github.io/images/html学习/waifu-labs.png">
-<meta property="og:updated_time" content="2019-07-29T16:28:00.361Z">
+<meta property="og:updated_time" content="2019-07-30T16:07:51.032Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="html学习笔记（学习中）">
 <meta name="twitter:description" content="正在学习中">
@@ -438,7 +438,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-07-30 00:28:00" itemprop="dateModified" datetime="2019-07-30T00:28:00+08:00">2019-07-30</time>
+                <time title="修改时间：2019-07-31 00:07:51" itemprop="dateModified" datetime="2019-07-31T00:07:51+08:00">2019-07-31</time>
               </span>
             
           
@@ -586,7 +586,7 @@
     <!--color:red表示字体为红色-->
 </p>
 
-<h2 id="文本格式化"><a href="#文本格式化" class="headerlink" title="文本格式化"></a>文本格式化</h2><h3 id="加粗-lt-b-gt"><a href="#加粗-lt-b-gt" class="headerlink" title="加粗&lt;b&gt;"></a>加粗<code>&lt;b&gt;</code></h3><p>粗体英文就是<code>bold</code>，懂？</p>
+<h2 id="文本格式化标签"><a href="#文本格式化标签" class="headerlink" title="文本格式化标签"></a>文本格式化标签</h2><h3 id="加粗-lt-b-gt"><a href="#加粗-lt-b-gt" class="headerlink" title="加粗&lt;b&gt;"></a>加粗<code>&lt;b&gt;</code></h3><p>将文字以粗体显示。</p>
 <p>例如：</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">b</span>&gt;</span>这里是粗体字<span class="tag">&lt;/<span class="name">b</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
@@ -595,7 +595,7 @@
     <b>这里是粗体字</b>
 </p>
 
-<h3 id="另一种加粗-lt-strong-gt"><a href="#另一种加粗-lt-strong-gt" class="headerlink" title="另一种加粗&lt;strong&gt;"></a>另一种加粗<code>&lt;strong&gt;</code></h3><p>看起来跟<code>&lt;b&gt;</code>一样？之后会解释不同。</p>
+<h3 id="加粗强调-lt-strong-gt"><a href="#加粗强调-lt-strong-gt" class="headerlink" title="加粗强调&lt;strong&gt;"></a>加粗强调<code>&lt;strong&gt;</code></h3><p>看起来跟<code>&lt;b&gt;</code>一样？之后会解释不同。</p>
 <p>例如：</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">strong</span>&gt;</span>这里是强调部分<span class="tag">&lt;/<span class="name">strong</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
@@ -604,7 +604,7 @@
     <strong>这里是强调部分</strong>
 </p>
 
-<h3 id="斜体-lt-i-gt"><a href="#斜体-lt-i-gt" class="headerlink" title="斜体&lt;i&gt;"></a>斜体<code>&lt;i&gt;</code></h3><p>斜体英文就是<code>italic</code>，了解？</p>
+<h3 id="斜体-lt-i-gt"><a href="#斜体-lt-i-gt" class="headerlink" title="斜体&lt;i&gt;"></a>斜体<code>&lt;i&gt;</code></h3><p>将文字以斜体显示。</p>
 <p>例如：</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">i</span>&gt;</span>这里是斜体<span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
@@ -622,7 +622,56 @@
     <em>这里是斜体</em>
 </p>
 
-<h1 id="基础属性"><a href="#基础属性" class="headerlink" title="基础属性"></a>基础属性</h1><p>属性写在标签内部，可以看作是对标签的补充，一般是以名称/值对的形式出现，即<code>名称=值对</code>形式</p>
+<h3 id="lt-b-gt-与-lt-strong-gt-以及-lt-i-gt-与-lt-em-gt-的不同"><a href="#lt-b-gt-与-lt-strong-gt-以及-lt-i-gt-与-lt-em-gt-的不同" class="headerlink" title="&lt;b&gt;与&lt;strong&gt;以及&lt;i&gt;与&lt;em&gt;的不同"></a><code>&lt;b&gt;</code>与<code>&lt;strong&gt;</code>以及<code>&lt;i&gt;</code>与<code>&lt;em&gt;</code>的不同</h3><p><code>&lt;b&gt;</code>和<code>&lt;i&gt;</code>只是一种显示效果，对浏览器来说并没有语义</p>
+<p>但<code>&lt;strong&gt;</code>和<code>&lt;em&gt;</code>是有强调的语义，其会告诉浏览器：这部分很重要。会影响SEO。</p>
+<p>好像<code>&lt;strong&gt;</code>强调大于<code>&lt;em&gt;</code>？</p>
+<h3 id="删除线-lt-del-gt"><a href="#删除线-lt-del-gt" class="headerlink" title="删除线&lt;del&gt;"></a>删除线<code>&lt;del&gt;</code></h3><p><code>&lt;del&gt;</code>在字中间加入删除线</p>
+<p>例如：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">del</span>&gt;</span>这里的文字被删除了<span class="tag">&lt;/<span class="name">del</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<p>
+    <del>这里的文字被删除了</del>
+</p>
+
+<h3 id="下划线-lt-ins-gt"><a href="#下划线-lt-ins-gt" class="headerlink" title="下划线&lt;ins&gt;"></a>下划线<code>&lt;ins&gt;</code></h3><p><code>&lt;ins&gt;</code>在字下面加上下划线</p>
+<p>例如：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">ins</span>&gt;</span>这下面有下划线<span class="tag">&lt;/<span class="name">ins</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<p>
+    <ins>这下面有下划线</ins>
+</p>
+
+
+
+<h3 id="预格式文本-lt-pre-gt"><a href="#预格式文本-lt-pre-gt" class="headerlink" title="预格式文本&lt;pre&gt;"></a>预格式文本<code>&lt;pre&gt;</code></h3><p><code>&lt;pre&gt;</code>文本相当适合显示很多空格回车的内容，例如代码</p>
+<p>例如：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">pre</span>&gt;</span></span><br><span class="line">这里              是      预</span><br><span class="line">		格式       文本</span><br><span class="line"><span class="tag">&lt;/<span class="name">pre</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<pre>
+这里              是      预
+        格式       文本
+</pre>
+
+<p>但是预格式文本也有缺点，它不会随浏览器大小而换行</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">pre</span>&gt;</span></span><br><span class="line">  wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</span><br><span class="line"><span class="tag">&lt;/<span class="name">pre</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<pre>
+  wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+        </pre>
+
+<p>对比一下：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span></span><br><span class="line">  wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</span><br><span class="line"><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<p>
+  wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+        </p>
+
+<h3 id="还有一些懒得写啦"><a href="#还有一些懒得写啦" class="headerlink" title="还有一些懒得写啦"></a>还有一些懒得写啦</h3><h1 id="基础属性"><a href="#基础属性" class="headerlink" title="基础属性"></a>基础属性</h1><p>属性写在标签内部，可以看作是对标签的补充，一般是以名称/值对的形式出现，即<code>名称=值对</code>形式</p>
 <p>属性对大小写不敏感，但为了长远考虑，请用小写</p>
 <h2 id="链接href"><a href="#链接href" class="headerlink" title="链接href"></a>链接<code>href</code></h2><p>还记得上面的链接<code>&lt;a&gt;</code>吗，内部有<code>href</code>就是链接的属性</p>
 <p>例如：</p>
@@ -647,6 +696,16 @@
     这里字符居中
 </p>
 
+<h1 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h1><h2 id="短引用-lt-q-gt"><a href="#短引用-lt-q-gt" class="headerlink" title="短引用&lt;q&gt;"></a>短引用<code>&lt;q&gt;</code></h2><p><code>&lt;q&gt;</code>用于短的不换行引用，一般显示是在外侧加上引号</p>
+<p>例如：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span></span><br><span class="line">	清华校训是<span class="tag">&lt;<span class="name">q</span>&gt;</span>自强不息，厚德载物<span class="tag">&lt;/<span class="name">q</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<p>
+    清华校训是<q>自强不息，厚德载物</q>
+</p>
+
+<p>这一标签的作用应该也是利于浏览器识别</p>
 
       
     </div>
@@ -835,6 +894,10 @@
                     <a href="https://blog.bill.moe/" title="https://blog.bill.moe/" rel="noopener" target="_blank">Bill_Yang</a>
                   </li>
                 
+                  <li class="links-of-blogroll-item">
+                    <a href="https://keke046.coding.me/" title="https://keke046.coding.me/" rel="noopener" target="_blank">KEKE046</a>
+                  </li>
+                
               </ul>
             </div>
           
@@ -858,7 +921,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#正在学习中"><span class="nav-number">1.</span> <span class="nav-text">正在学习中</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#概述"><span class="nav-number">2.</span> <span class="nav-text">概述</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#最基本标签"><span class="nav-number">3.</span> <span class="nav-text">最基本标签</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#lt-html-gt-标签"><span class="nav-number">3.1.</span> <span class="nav-text">&lt;html&gt;标签</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#lt-body-gt-标签"><span class="nav-number">3.2.</span> <span class="nav-text">&lt;body&gt;标签</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#lt-head-gt-标签"><span class="nav-number">3.3.</span> <span class="nav-text">&lt;head&gt;标签</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#基本标签"><span class="nav-number">4.</span> <span class="nav-text">基本标签</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#标题-lt-h1-gt"><span class="nav-number">4.1.</span> <span class="nav-text">标题&lt;h1&gt;</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#段落-lt-p-gt"><span class="nav-number">4.2.</span> <span class="nav-text">段落&lt;p&gt;</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#折行-lt-br-gt"><span class="nav-number">4.3.</span> <span class="nav-text">折行&lt;br /&gt;</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#空格（可能有更好代替方案，还有这应该并不属于标签）"><span class="nav-number">4.4.</span> <span class="nav-text">空格（可能有更好代替方案，还有这应该并不属于标签）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#水平线-lt-hr-gt"><span class="nav-number">4.5.</span> <span class="nav-text">水平线&lt;hr /&gt;</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#超链接-lt-a-gt"><span class="nav-number">4.6.</span> <span class="nav-text">超链接&lt;a&gt;</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#图片-lt-img-gt"><span class="nav-number">4.7.</span> <span class="nav-text">图片&lt;img&gt;</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#注释-lt-gt"><span class="nav-number">4.8.</span> <span class="nav-text">注释&lt;!-- --&gt;</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文本格式化"><span class="nav-number">4.9.</span> <span class="nav-text">文本格式化</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#加粗-lt-b-gt"><span class="nav-number">4.9.1.</span> <span class="nav-text">加粗&lt;b&gt;</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#另一种加粗-lt-strong-gt"><span class="nav-number">4.9.2.</span> <span class="nav-text">另一种加粗&lt;strong&gt;</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#斜体-lt-i-gt"><span class="nav-number">4.9.3.</span> <span class="nav-text">斜体&lt;i&gt;</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#斜体强调-lt-em-gt"><span class="nav-number">4.9.4.</span> <span class="nav-text">斜体强调&lt;em&gt;</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#基础属性"><span class="nav-number">5.</span> <span class="nav-text">基础属性</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#链接href"><span class="nav-number">5.1.</span> <span class="nav-text">链接href</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#样式style"><span class="nav-number">5.2.</span> <span class="nav-text">样式style</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#正在学习中"><span class="nav-number">1.</span> <span class="nav-text">正在学习中</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#概述"><span class="nav-number">2.</span> <span class="nav-text">概述</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#最基本标签"><span class="nav-number">3.</span> <span class="nav-text">最基本标签</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#lt-html-gt-标签"><span class="nav-number">3.1.</span> <span class="nav-text">&lt;html&gt;标签</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#lt-body-gt-标签"><span class="nav-number">3.2.</span> <span class="nav-text">&lt;body&gt;标签</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#lt-head-gt-标签"><span class="nav-number">3.3.</span> <span class="nav-text">&lt;head&gt;标签</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#基本标签"><span class="nav-number">4.</span> <span class="nav-text">基本标签</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#标题-lt-h1-gt"><span class="nav-number">4.1.</span> <span class="nav-text">标题&lt;h1&gt;</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#段落-lt-p-gt"><span class="nav-number">4.2.</span> <span class="nav-text">段落&lt;p&gt;</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#折行-lt-br-gt"><span class="nav-number">4.3.</span> <span class="nav-text">折行&lt;br /&gt;</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#空格（可能有更好代替方案，还有这应该并不属于标签）"><span class="nav-number">4.4.</span> <span class="nav-text">空格（可能有更好代替方案，还有这应该并不属于标签）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#水平线-lt-hr-gt"><span class="nav-number">4.5.</span> <span class="nav-text">水平线&lt;hr /&gt;</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#超链接-lt-a-gt"><span class="nav-number">4.6.</span> <span class="nav-text">超链接&lt;a&gt;</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#图片-lt-img-gt"><span class="nav-number">4.7.</span> <span class="nav-text">图片&lt;img&gt;</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#注释-lt-gt"><span class="nav-number">4.8.</span> <span class="nav-text">注释&lt;!-- --&gt;</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文本格式化标签"><span class="nav-number">4.9.</span> <span class="nav-text">文本格式化标签</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#加粗-lt-b-gt"><span class="nav-number">4.9.1.</span> <span class="nav-text">加粗&lt;b&gt;</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#加粗强调-lt-strong-gt"><span class="nav-number">4.9.2.</span> <span class="nav-text">加粗强调&lt;strong&gt;</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#斜体-lt-i-gt"><span class="nav-number">4.9.3.</span> <span class="nav-text">斜体&lt;i&gt;</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#斜体强调-lt-em-gt"><span class="nav-number">4.9.4.</span> <span class="nav-text">斜体强调&lt;em&gt;</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#lt-b-gt-与-lt-strong-gt-以及-lt-i-gt-与-lt-em-gt-的不同"><span class="nav-number">4.9.5.</span> <span class="nav-text">&lt;b&gt;与&lt;strong&gt;以及&lt;i&gt;与&lt;em&gt;的不同</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#删除线-lt-del-gt"><span class="nav-number">4.9.6.</span> <span class="nav-text">删除线&lt;del&gt;</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#下划线-lt-ins-gt"><span class="nav-number">4.9.7.</span> <span class="nav-text">下划线&lt;ins&gt;</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#预格式文本-lt-pre-gt"><span class="nav-number">4.9.8.</span> <span class="nav-text">预格式文本&lt;pre&gt;</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#还有一些懒得写啦"><span class="nav-number">4.9.9.</span> <span class="nav-text">还有一些懒得写啦</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#基础属性"><span class="nav-number">5.</span> <span class="nav-text">基础属性</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#链接href"><span class="nav-number">5.1.</span> <span class="nav-text">链接href</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#样式style"><span class="nav-number">5.2.</span> <span class="nav-text">样式style</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#引用"><span class="nav-number">6.</span> <span class="nav-text">引用</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#短引用-lt-q-gt"><span class="nav-number">6.1.</span> <span class="nav-text">短引用&lt;q&gt;</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -918,7 +981,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共1.7k字</span>
+  <span class="post-count">博客全站共2.1k字</span>
 </div>
 
         
